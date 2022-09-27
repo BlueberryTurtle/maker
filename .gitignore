@@ -1,0 +1,8 @@
+node_modules
+dist
+.cache
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierign
