@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
   <title>Maker pre-launch landing page</title>
@@ -73,24 +74,24 @@
           <p>Just getting started? No problem at all! Our free plan will take you a long way.</p>
         <h1>Free</h1>
           <ul>
-            <li>Unlimited products</li>
-            <li>Basic analytics</li>
-            <li>Limited marketplace exposure</li>
-            <li>10% fee per transaction</li>
+            <li><i class="fa-solid fa-check cl-green"></i>Unlimited products</li>
+            <li><i class="fa-solid fa-check cl-green"></i>Basic analytics</li>
+            <li><i class="fa-solid fa-check cl-green"></i>Limited marketplace exposure</li>
+            <li><i class="fa-solid fa-check cl-green"></i>10% fee per transaction</li>
           </ul>
         </div>
 
         <div class="card price-card light-theme">
           <h2 class="">Dive right in</h2>
           <p class="">Ready for the big time? Our paid plan will help you take your business to the next level.</p>
-          <div class="price-tag">
-            <h1>$25.00</h1><span>/month</span>
+          <div class="price-tag-container">
+            <span class="price-tag">$25.00<span class="price-tag-unit">/ month</span></span>
           </div>
           <ul>
-            <li>Custom domain</li>
-            <li>Advanced analytics and reports</li>
-            <li>High marketplace visibility</li>
-            <li>5% fee per transaction</li>
+            <li><i class="fa-solid fa-check"></i>Custom domain</li>
+            <li><i class="fa-solid fa-check"></i>Advanced analytics and reports</li>
+            <li><i class="fa-solid fa-check"></i>High marketplace visibility</li>
+            <li><i class="fa-solid fa-check"></i>5% fee per transaction</li>
           </ul>
         </div>
 
@@ -100,11 +101,14 @@
 
   <footer class="cta">
     <div class="cta-container">
+      <form action="">
       <h2>Get notified when we launch</h2>
       <div class="cta__input">
-        <input type="text" placeholder="Email address">
+        <input type="email" placeholder="Email address">
       </div>
       <button class="light-theme">Get notified</button>
+
+      </form>
     </div>
   </footer>
 
